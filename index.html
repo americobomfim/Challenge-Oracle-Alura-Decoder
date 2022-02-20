@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codificador/Decodificador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">código secreto</h1>
+
+  <main class="main">
+    <section class="form box">
+        <label for="input-texto">Apenas letras minúsculas, sem acento</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Insira o texto aqui" autofocus>
+        <input class="btn" type="button" value="criptografar!" id="btn-cripto">
+        <input class="btn" type="button" value="descriptografar!" id="btn-descripto">
+        <input class="btn" type="button" value="colar" id="btn-paste">
+    </section>
+
+    <section class="msg box">
+      <h2 id="">Mensagem criptografada:</h2>
+      <input class="text-input" type="text" id="msg" readonly></input>
+      <input class="btn" type="button" value="copiar" id="btn-copy">
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
